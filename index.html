@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
     <title>Rijksmuseum beroepsopdracht</title>
 </head>
 <body>
@@ -18,10 +19,10 @@
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
                 <li><a href="">HOME</a></li>
-                <li><a href="">OVER HET RIJKSMUSEUM</a></li>
-                <li><a href="">SCHILDERIJEN</a></li>
-                <li><a href="">GESCHIEDENIS</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="#over">OVER HET RIJKSMUSEUM</a></li>
+                <li><a href="#schilderijen">SCHILDERIJEN</a></li>
+                <li><a href="#geschiedenis">GESCHIEDENIS</a></li>
+                <li><a href="#info">INFO</a></li>
             </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -37,7 +38,7 @@
 
 <!---- Over het rijksmuseum ------->
 <body>
-<section class="About">
+<section id="over" class="About">
     <h1> Over het rijksmuseum </h1>
     <p>Het Rijksmuseum is het museum van Nederland. 
        We vertellen het verhaal van 800 jaar Nederlandse geschiedenis vanaf 1200 tot nu. 
@@ -70,8 +71,8 @@
 
 <!------- Fotoslider ------>
 
-<section class="Fotoslider"> 
-    
+<section id="schilderijen" class="Fotoslider"> 
+
     <div class="SlowFade">
         <div class="slide">
             <img src="schilderijen/1.png" alt="img"/>
@@ -92,7 +93,7 @@
 <!---- Geschiedenis ------->
 <body>
     
-    <section class="Geschiedenis">
+    <section id="geschiedenis" class="Geschiedenis">
         <h2> Geschiedenis </h2>
         <p>Het Rijksmuseum is het museum van Nederland. 
            Toen het Rijksmuseum twee eeuwen geleden z’n deuren opende, 
@@ -131,7 +132,43 @@
             </div>
         </div>
     </section>
-    </body>
+    <section id="info">
+            <footer class="footer">
+                <div class="container">
+                    <div class="row2">
+                        <div class="footer-col">
+                            <h4>Locatie</h4>
+                            <ul class="bla">
+                                <li class="ble"><a href="#">about us</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Contact</h4>
+                            <ul class="bla">
+                                <li class="ble"><a href="#">FAQ</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4> blablabla</h4>
+                            <ul class="bla">
+                                <li class="ble"><a href="#">blalba</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Volg Ons</h4>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+    </section>
+</body>
 
 
     <!------JavaScript for Toggle Menu----- 	-->
