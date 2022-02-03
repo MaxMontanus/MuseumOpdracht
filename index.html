@@ -14,6 +14,7 @@
 <body>
 <section class="header">
     <nav>
+        
         <a href="index.html"><img src="images/logo.png" alt=""></a>
         <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
@@ -31,7 +32,7 @@
 <div class="Text-box">
     <h1>Bezoek het prachtige Rijksmuseum</h1>
     <p>En bekijk de prachtige schilderijen</p>
-    <a href="" class="hero-btn">KOOP JE TICKETS</a>
+    <a href="https://www.rijksmuseum.nl/nl/tickets/artikelen" class="hero-btn" >KOOP JE TICKETS</a>
 </div>
 
 </section>
@@ -72,7 +73,7 @@
 <!------- Fotoslider ------>
 
 <section id="schilderijen" class="Fotoslider"> 
-
+<h2>tentoonstelling</h2>
     <div class="SlowFade">
         <div class="slide">
             <img src="schilderijen/1.png" alt="img"/>
@@ -158,29 +159,47 @@
                         <div class="footer-col">
                             <h4>Locatie</h4>
                             <ul class="bla">
-                                <li class="ble"><a href="#">about us</a></li>
+                                <li class="ble"><a href="#">Museumstraat 1, Amsterdam </a></li>
                             </ul>
                         </div>
                         <div class="footer-col">
                             <h4>Contact</h4>
                             <ul class="bla">
-                                <li class="ble"><a href="#">FAQ</a></li>
+                                <li class="ble"><a href="#">
+                                    E-mail: info@rijksmuseum.nl
+                                    Telefoonnummer: +310206747000 </a></li>
 
                             </ul>
                         </div>
                         <div class="footer-col">
-                            <h4> blablabla</h4>
+                            <h4> Openingstijden</h4>
                             <ul class="bla">
-                                <li class="ble"><a href="#">blalba</a></li>
+                                <li class="ble"><a href="#">Elke dag van 9-17 uur</a></li>
                             </ul>
                         </div>
                         <div class="footer-col">
-                            <h4>Volg Ons</h4>
-                            <div class="social-links">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <h4>Reviews</h4>
+                            <div class="Social-links">
+                                <script defer src="popup.js"></script>
+  <button data-modal-target="#modal">Open Reviews</button>
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="title">REVIEWS</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+    Geweldige site!
+    <br>
+    <br>
+    <br>
+    Toffe schilderijen!
+    <br>
+    <br>
+    <br>
+    goede lokatie!
+    </div>
+  </div>
+  <div id="overlay"></div>    
                             </div>
                         </div>
                     </div>

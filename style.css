@@ -192,7 +192,6 @@ h3{
     }
 }
 
-
 .slowFade {
     display: flex;
     align-items: flex-start;
@@ -376,12 +375,12 @@ body{
 .footer-col .social-links a{
 	display: inline-block;
 	height: 40px;
-	width: 40px;
+	width: 200px;
 	background-color: rgba(255,255,255,0.2);
 	margin:0 10px 10px 0;
 	text-align: center;
 	line-height: 40px;
-	border-radius: 50%;
+	border-radius: 20%;
 	color: #ffffff;
 	transition: all 0.5s ease;
 }
@@ -399,7 +398,6 @@ nav>button{
 }
 #Myinput{
     left: 50vw;
-
 }
 /*responsive*/
 @media(max-width: 767px){
@@ -413,4 +411,83 @@ nav>button{
     width: 100%;
 }
 }
+.route{
+    margin: 300px;
+    
+}
 
+h2{
+    text-align: center;
+}
+
+
+
+
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 500px;
+    max-width: 80%;
+  }
+  
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+  
+  .modal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-body {
+    padding: 10px 15px;
+  }
+  
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+  
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+
+
+  

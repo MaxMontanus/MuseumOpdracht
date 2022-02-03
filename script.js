@@ -7,7 +7,7 @@ let current_index = 0;
 let lokaties =[
     {
         "title":"plaats 1",
-        "image":"route/afb1.jpeg",
+        "image":"route/afb2.jpeg",
         "directions":{
             "west": 2,
             "oost": 5,
@@ -16,11 +16,11 @@ let lokaties =[
     },
     {
         "title":"plaats 2",
-        "image":"route/afb2.jpeg",
+        "image":"route/afb2.jpg",
         "directions":{
          
             "west": 5,
-            "oost": 3,
+            "noord": 3,
             "zuid": 6
         }
     },
@@ -41,7 +41,7 @@ let lokaties =[
         
             "west": 3,
             "oost": 6,
-            "zuid": 5
+            "noord": 5
         }
     },
     {
