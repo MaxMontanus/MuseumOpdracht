@@ -389,7 +389,18 @@ body{
 	color: #24262b;
 	background-color: #ffffff;
 }
+nav>button{
+    height: 50px;
+}
+#containder-schilderijen{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+#Myinput{
+    left: 50vw;
 
+}
 /*responsive*/
 @media(max-width: 767px){
   .footer-col{
